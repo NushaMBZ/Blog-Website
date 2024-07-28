@@ -6,7 +6,7 @@ import './index.css';
 import Layout from './components/Layout';
 import ErrorPage from './pages/ErrorPage';
 import Home from './pages/Home';
-import PostDetail from './pages/Home';
+import PostDetail from './pages/PostDetail';
 import Register from './pages/Register';
 import Login from './pages/LoginPage';
 import UserProfile from './pages/UserProfile';
