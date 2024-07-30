@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import Avatar1 from '../assets/avatar.jpg'
+import Avatar2 from '../assets/avatar 2.jpg'
+import Avatar3 from '../assets/avatar3.png'
 
 const authorData = [
-  {id:1, avatar: Avatar1, name : 'John Doe', posts: 5},
-  {id:2, avatar: Avatar1, name : 'John Doe', posts: 5},
-  {id:3, avatar: Avatar1, name : 'John Doe', posts: 5},
-  {id:4, avatar: Avatar1, name : 'John Doe', posts: 5},
-  {id:5, avatar: Avatar1, name : 'John Doe', posts: 5}
+  {id:1, avatar: Avatar1, name : 'John Doe', posts: 1},
+  {id:2, avatar: Avatar2, name : 'Harini', posts: 2},
+  {id:3, avatar: Avatar3, name : 'John Doe', posts: 5},
+  {id:4, avatar: Avatar1, name : 'John Doe', posts: 3},
+  {id:5, avatar: Avatar1, name : 'John Doe', posts: 4}
 ]
 const Authors = () => {
   const [authors, setAuthors] = useState(authorData)
